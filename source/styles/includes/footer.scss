@@ -1,0 +1,21 @@
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
+    @media (max-width: $md3+px) {
+        padding: 30px 0;
+    }
+    &__container {
+
+    }
+
+    &__social {
+        margin: 0 0 25px 0;
+    }
+    &__copy {
+        font-family: $font-family;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+    }
+}

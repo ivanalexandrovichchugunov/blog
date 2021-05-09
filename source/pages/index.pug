@@ -1,0 +1,15 @@
+include components/mixins
+include components/doctype
+
+body
+    .wrapper
+        include includes/header.pug
+        main.page
+            include includes/hello.pug
+            include includes/recent-posts.pug
+            include includes/featured-works.pug
+        footer 
+            include includes/footer.pug
+        
+    script(src="js/script.js")
+

@@ -1,0 +1,59 @@
+include components/mixins
+include components/doctype
+
+body
+    .wrapper
+        include includes/header.pug
+        main.page
+            .works.page__container._container 
+                h1.works__main-title.title Works 
+                .work__items
+                    article.works__item
+                        a(href="/article.html").works__image._ibg
+                            img(src="../img/01.png", alt="")
+                            //- .works__image_1
+                        .works__body
+                            a(href="/article.html").works__title Designing Dashboards
+                            .works__info 
+                                .works__year 2020
+                                .works__category Dashboard
+                            .works__text.text
+                                |Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    article.works__item
+                        a(href="/article.html").works__image._ibg
+                            img(src="../img/02.png", alt="")
+                            //- .works__image_2
+                        .works__body
+                            a(href="/article.html").works__title Vibrant Portraits of 2020
+                            .works__info 
+                                .works__year 2018
+                                .works__category Illustration
+                            .works__text.text
+                                |Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    article.works__item
+                        a(href="/article.html").works__image._ibg
+                            img(src="../img/03.png", alt="")
+                            //- .works__image_3
+                        .works__body
+                            a(href="/article.html").works__title 36 Days of Malayalam type
+                            .works__info 
+                                .works__year 2018
+                                .works__category Typography
+                            .works__text.text
+                                |Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    article.works__item
+                        a(href="/article.html").works__image._ibg
+                            img(src="../img/04.png", alt="")
+                            //- .works__image_3
+                        .works__body
+                            a(href="/article.html").works__title Components
+                            .works__info 
+                                .works__year 2018
+                                .works__category Components, Design
+                            .works__text.text
+                                |Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        footer 
+            include includes/footer.pug
+        
+    script(src="js/script.js")
+
